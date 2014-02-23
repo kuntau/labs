@@ -1,0 +1,19 @@
+body {
+    background-color: #ddd;
+}
+
+#wrapper {
+    margin: 0 *;
+    padding: 25px;
+    width: 600px;
+    background-color: #eee;
+}
+
+#card {
+    background-color: white;
+    height: 200px;
+}
+
+#photo {
+    margin: 10px;
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random User Generator</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div id="wrapper" class="center-block">
+    <h1>Random User Generator</h1><hr />
+    <button id="ajax">$.ajax</button>
+    <button id="getjson">$.getJSON</button>
+    <hr />
+    <h4 id="head">Biodata:</h4>
+    <div id="card">
+        <h4 id="name"></h4>
+        <div><img id="photo" class="img-circle pull-left" height="100" width="100"/></div>
+        <div> 
+            <div>Email: <span id="email"><span></div>
+            <div>Phone: <span id="phone"><span></div>
+            <div>Cell: <span id="cell"><span></div>
+            <small>Seed: <span id="seed"></span></small>
+        </div>
+    </div>
+</div>
+
+<script src="jquery-2.1.0.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
