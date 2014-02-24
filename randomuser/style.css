@@ -28,19 +28,24 @@ h1 { text-align: center; }
     background-color: #eee;
 }
 
-#card {
+.card {
   margin: 0 auto;
+  margin-top: 7px;
   padding: 10px;
   background-color: white;
-  width: 500px;
+  width: 450px;
   height: 200px;
 }
 
-#card #name {
+.name {
   text-align: center;
   text-decoration: underline;
 }
 
-#photo {
+.card-details {
+  font-family: 'Verdana', sans-serif;
+}
+
+.photo {
     margin: 10px;
 }

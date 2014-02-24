@@ -44,12 +44,14 @@ function randomize(callback) {
 }
 
 function appendDiv(seed, user) {
-    $("#seed").text(seed);
-    $("#photo").attr('src', user.picture);
-    $("#name").text(getFullName(user.name.title, user.name.first, user.name.last));
-    $("#email").text(user.email);
-    $("#phone").text(user.phone);
-    $("#cell").text(user.cell);
+    $(".seed").html(seed);
+    $(".photo").attr('src', user.picture);
+    // $(".name").html(getFullName(user.name.title, user.name.first, user.name.last));
+    $(".name").html(capitalizeFirstChar(user.name.title + " " + user.name.first + " " + user.name.last));
+    $(".email").html(user.email);
+    $(".phone").html(user.phone);
+    $(".cell").html(user.cell);
+    $(".address").html(capitalizeFirstChar(user.location.street + ", " + user.location.city + ", " + user.location.zip + ", " + user.location.state));
 //    getFullName(user.name.title, user.name.first, user.name.last);
 }
 
@@ -58,4 +60,15 @@ var getFullName = function (title, first, last) {
     var capsFirst = first[0].toUpperCase() + first.slice(1);
     var capsLast = last[0].toUpperCase() + last.slice(1);
     return capsTitle + " " + capsFirst + " " + capsLast;
+}
+
+var capitalizeFirstChar = function (text) {
+  var tempSplit = text.split(' ');
+  for(i=0; i < tempSplit.length; i++) {
+    tempSplit[i] = (function () {
+      tempText = tempSplit[i];
+      return tempText[0].toUpperCase() + tempText.slice(1);
+    })();
+  }
+  return tempSplit.join(' ');
 }
