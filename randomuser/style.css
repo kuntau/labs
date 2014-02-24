@@ -1,9 +1,12 @@
-/* @import url(http://fonts.googleapis.com/css?family=Oldenburg) */
+/* @import url(http://fonts.googleapis.com/css?family=Oldenburg|Alfa+Slab+One|Maiden+Orange) */
 
+*, *:before, *:after{
+  -mox-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
 @font-face {
-  /* font-family: 'Oldenburg'; */
-  font-family: 'Alfa Slab One';
-  src: url('http://fonts.googleapis.com/css?family=Alfa+Slab+One');
+  font-family: 'Alfa Slab One'; 
+/*   /*font-family: 'Alfa Slab One';*/ */
+/*   src: url('http://fonts.googleapis.com/css?family=Oldenburg'); */
 }
 
 h1, h2, h3, h4, h5 {
@@ -12,19 +15,30 @@ h1, h2, h3, h4, h5 {
 }
 
 body {
-    background-color: #ddd;
+    background-color: #e45e39;
+    /*background-color: #e0e0e0; */
 }
 
+h1 { text-align: center; }
+
 #wrapper {
-    margin: 0 *;
+    margin: 10px;
     padding: 25px;
-    width: 600px;
+    /* width: 600px; */
     background-color: #eee;
 }
 
 #card {
-    background-color: white;
-    height: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: white;
+  width: 500px;
+  height: 200px;
+}
+
+#card #name {
+  text-align: center;
+  text-decoration: underline;
 }
 
 #photo {

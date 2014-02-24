@@ -41,7 +41,6 @@ function randomize(callback) {
         var seed = data.results[0].seed;
         callback(seed, user);
     });
-    
 }
 
 function appendDiv(seed, user) {
