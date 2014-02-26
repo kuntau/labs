@@ -1,26 +1,26 @@
 module.exports = (grunt) ->
 
   # project configuration
-  grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json'),
+  grunt.initConfig
+    pkg: grunt.file.readJSON('package.json')
 
     # grunt watch
-    watch: {
-      css: {
+    watch:
+      css:
         files: '**/*.styl'
-        task: ['stylus']
-        options: {
+        tasks: ['default']
+        # options:
+        #   livereload: 35729
+      all:
+        files: ['papsb-draft1/*.html', 'papsb-draft1/*.css', 'papsb-draft1/*.js']
+        options:
           livereload: true
-        }
-      }
-    },
 
-    stylus: {
+    # stylus auto compile
+    stylus:
       compile:
         files:
-          '**/style.css': '**/style.styl'
-    }
-  })
+          'papsb-draft1/style.css': 'papsb-draft1/style.styl'
 
   # load the grunt plugins
   grunt.loadNpmTasks('grunt-contrib-watch')
@@ -28,5 +28,4 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks('grunt-contrib-coffee')
 
   # default task
-  grunt.registerTask('default', ['watch'])
-  grunt.registerTask('stylus', ['stylus'])
+  grunt.registerTask('default', ['stylus'])
