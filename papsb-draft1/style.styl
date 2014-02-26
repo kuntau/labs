@@ -2,21 +2,24 @@
 flat_dark_green = #16a085
 flat_dark_blue = #303387
 flat_light_green = #4fd8bf
+flat_vine_green = #39DBAC
 flat_light_purple = #bc66a1
 flat_light_orange = #fb8261
-flat_dark_grey = lighten(black, 50%)
-flat_light_grey = lighten(black, 70%)
+flat_dark_grey = lighten(black, 60%)
+flat_light_grey = lighten(black, 90%)
 
 // @font-face
 //   font-family 'Alfa Slab One', Maiden, cursive
 
 h1, h2
   font-family 'Alfa Slab One', cursive
-  color flat_light_orange
+  color flat_vine_green
+  text-shadow 2px 2px 0 darken(flat_vine_green, 30%)
 
-h3, h4
-  font-family 'Oldenburg', cursive
-  color flat_dark_grey
+h3, h4, h4 a
+  font-family 'Source Sans Pro', sans-serif
+  font-weight 600
+  color lighten(black, 30%)
 
 h1
   text-align center
@@ -24,21 +27,60 @@ h1
 body
   font-family 'Open Sans', sans-serif
   background-color lighten(black, 95%)
-  color flat_light_grey
-
-.test
-  background-color flat_light_green
+  color flat_dark_grey
 
 .content
   height 600px
 
-.product
-  font-family 'Source Sans Pro', sans-serif
-  box-shadow 0 2px 0 flat_dark_grey
+/* product card styling */
 
-.product_details
-  background-color white
-  padding 0 10px 10px
+.products
+  font-family 'Source Sans Pro', sans-serif
+  text-align center
+
+  .product
+    box-shadow 0 2px 0 flat_light_grey
+
+    .product_details
+      background-color white
+      padding 0 10px 10px
+
+      .btn-round
+        position relative
+        border-radius 50%
+        top -19px
+
+      .btn-secondary
+        background flat_dark_grey
+        color white
+
+      h4
+        margin 0
+        padding 5px 0
+
+      p
+        font-size 0.9em
+
+      .intents
+        text-align right
+        position absolute
+        top 155px
+        right 25px
+        font-size 0.8em
+        line-height 14px
+
+        i
+          color flat_vine_green
+
+        span
+          font-size 1.2em
+          margin-left 5px
+
+      .product_img
+        width 100%
+
+/* footer */
 
 .footer
   height 100px
+  margin-top 50px
