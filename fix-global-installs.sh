@@ -24,7 +24,7 @@ npm cache add uid-number@0.0.5
 cache=$(npm get cache)
 
 # get the root dir (where npm is installed)
-root=$(npm get root -g)
+root=$(npm root -g)
 
 # copy the fixed codes into place
 sudo cp $cache/uid-number/0.0.5/package/*.js \
