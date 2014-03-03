@@ -1,62 +1,81 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>PAPSB Portal</title>
-    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans:400,300,600,700|Source+Sans+Pro:400,600" title="" type="text/css" />
-    <link rel="stylesheet" href="style.css"/>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <nav class="navbar navbar-default" role="navigation">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#papsb-main-nav">
-                  <span class="sr-only">Toogle Navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">PAPSB PORTAL</a>
-              </div>
+<head>
+  <meta content="text/html" charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PAPSB Portal</title>
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans:400,300,600,700|Source+Sans+Pro:400,600" title="" type="text/css" />
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#papsb-main-nav">
+            <span class="sr-only">Toogle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h1><a class="navbar-brand" href="#">PAPSB PORTAL</a></h1>  
+        </div>
 
-              <div class="collapse navbar-collapse" id="papsb-main-nav">
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">Operasi</a></li>
-                  <li><a href="#">Kejuruteraan</a></li>
-                  <li><a href="#">Kewangan</a></li>
-                  <li><a href="#">Sumber Manusia</a></li>
-                </ul>
-            </div> <!-- container-fluid -->
-          </nav>
-        </div> <!-- end navbar -->
-      </div>
-      <div class="row second-nav">
-        <div class="col-sm-2 jumbo">
-          <ul class="nav nav-pills nav-stacked">
-            <li class="active"><a href="#">Dashbaord</a></li>
-            <li><a href="#">Statistik Operasi</a></li>
-            <li><a href="#">Sewa Khas</a></li>
-            <li><a href="#">Roster</a></li>
-            <li><a href="#">Master</a></li>
+        <div class="collapse navbar-collapse" id="papsb-main-nav">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Operasi</a></li>
+            <li><a href="#">Kejuruteraan</a></li>
+            <li><a href="#">Kewangan</a></li>
+            <li><a href="#">Sumber Manusia</a></li>
           </ul>
         </div>
-        <div class="col-sm-10 jumbo">
+      </div> <!-- container-fluid -->
+    </nav>
+  </header>
+  <div class="container">
+    <div class="row main">
+      <div class="col-sm-2 second-nav">
+        <ul class="nav nav-pills nav-stacked">
+          <li class="active"><a href="#">Dashbaord</a></li>
+          <li><a href="#">Statistik Operasi</a></li>
+          <li><a href="#">Sewa Khas</a></li>
+          <li><a href="#">Roster</a></li>
+          <li><a href="#">Master</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-10 jumbo">
+        <div class="alert alert-info alert-dismisable">
+          <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, unde harum ad quod nulla eligendi debitis? Dolore, dolores, recusandae, rerum laborum ipsum ad modi natus beatae quisquam nulla id voluptatem.
+        </div>
+        <div class="row live-report">
+          <div class="col-sm-6 depoh-sentral">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, expedita sed eaque rem praesentium quasi quia nemo voluptatibus est culpa fugiat alias quisquam cupiditate in quas ipsam sequi nobis commodi?
+          </div>
+          <div class="col-sm-6 depoh-sentral">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, expedita sed eaque rem praesentium quasi quia nemo voluptatibus est culpa fugiat alias quisquam cupiditate in quas ipsam sequi nobis commodi?
+          </div>
+        </div> 
+        <div class="announcement">
           <h3>PENGUMUMAN</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <p>Elit saepe possimus maxime asperiores debitis fugiat impedit. Neque enim adipisci quasi officia excepturi aliquam soluta dolorum voluptates ratione tempore labore aperiam aperiam dolorem delectus omnis! Dolor veniam porro vel.</p>
         </div>
-      </div>
-      <div class="row blog_posts">
-        <div class="col-sm-10 col-sm-offset-2">
+        <div class="blog_posts">
           <h3>BLOG POST</h3>
           <div class="post">
-            <img class="img-post" src="holder.js/778x200/vine" alt="">
+          <picture>
+            <source media="(max-width: 767px)" src="holder.js/295x200" />
+            <source media="(min-width: 768px) and (max-width: @screen-sm-max)" data-src="holder.js/778x200/vine" />
+            <source media="(min-width: 992px) and (max-width: @screen-md-max)" data-src="holder.js/945x339/vine" />
+            <source media="(min-width: 1200px)" src="" />
+            <source media="(min-width: 2px)" src="" />
+            <img class="img-post" src="holder.js/945x200/vine" alt="really nice pic">
+            <p>Really Nice Image</p>
+          </picture>
             <h4 class="title">Majlis Pelancaran</h4>
             <div class="post_by">Oleh: <span>Hj. Abdul Rahim Md Junoh</span></div>
             <div class="post_date">Tarikh: <span>17 Oktober 2013</span></div>
@@ -67,54 +86,63 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="row products">
+      </div> <!-- end-blog_posts -->
+    </div> <!-- end jumbo -->
+  </div> <!-- end main -->
+</div> <!-- end container -->
+<section class="products">
+  <div class="container">
+    <div class="row">
       <h3 class="col-sm-12">Our Products</h3>
-        <div class="col-sm-4">
-          <div class="product">
-            <a href="#"><img data-src="holder.js/293x150/vine" class="product_img" alt="" /></a>
-            <div class="product_details">
-              <div class="product_action"><a class="btn btn-secondary btn-round" href="#"><i class="glyphicon glyphicon-search"></i></a></div>
-              <h4><a href="#">Bas Henti-henti</a></h4>
-              <p>Bas henti-henti terbaik di dunia</p>
-              <div class="intents"><i class="glyphicon glyphicon-heart-empty"></i><span class="count">123</span></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="product">
-            <a href="#"><img data-src="holder.js/293x150/sky" class="product_img" alt="" /></a>
-            <div class="product_details">
-              <div class="product_action"><a class="btn btn-secondary btn-round" href="#"><i class="glyphicon glyphicon-paperclip"></i></a></div>
-              <h4><a href="#">Bas Henti-henti</a></h4>
-              <p>Bas henti-henti terbaik di dunia</p>
-              <div class="intents"><span class="glyphicon glyphicon-heart"></span><span class="count">123</span></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="product">
-            <img src="holder.js/293x150/" class="product_img" alt="" />
-            <div class="product_details">
-              <div class="product_action"><a class="btn btn-secondary btn-round" href="#"><i class="glyphicon glyphicon-send"></i></a></div>
-              <h4><a href="#">Bas Henti-henti</a></h4>
-              <p>Bas henti-henti terbaik di dunia</p>
-              <div class="intents"><span class="glyphicon glyphicon-heart"></span><span class="count">123</span></div>
-            </div>
+      <div class="col-sm-4">
+        <div class="product">
+          <a href="#"><img data-src="holder.js/293x150/vine" class="product_img" alt="" /></a>
+          <div class="product_details">
+            <div class="product_action"><a class="btn btn-secondary btn-round" href="#"><i class="glyphicon glyphicon-search"></i></a></div>
+            <h4><a href="#">Bas Henti-henti</a></h4>
+            <p>Bas henti-henti terbaik di dunia</p>
+            <div class="intents"><i class="glyphicon glyphicon-heart-empty"></i><span class="count">123</span></div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-12 footer">
-          Copyright &copy; 2014. Kuntau Inc.
+      <div class="col-sm-4">
+        <div class="product">
+          <a href="#"><img data-src="holder.js/293x150/sky" class="product_img" alt="" /></a>
+          <div class="product_details">
+            <div class="product_action"><a class="btn btn-secondary btn-round" href="#"><i class="glyphicon glyphicon-paperclip"></i></a></div>
+            <h4><a href="#">Bas Henti-henti</a></h4>
+            <p>Bas henti-henti terbaik di dunia</p>
+            <div class="intents"><span class="glyphicon glyphicon-heart"></span><span class="count">123</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="product">
+          <img src="holder.js/293x150/" class="product_img" alt="" />
+          <div class="product_details">
+            <div class="product_action"><a class="btn btn-secondary btn-round" href="#"><i class="glyphicon glyphicon-send"></i></a></div>
+            <h4><a href="#">Bas Henti-henti</a></h4>
+            <p>Bas henti-henti terbaik di dunia</p>
+            <div class="intents"><span class="glyphicon glyphicon-heart"></span><span class="count">123</span></div>
+          </div>
         </div>
       </div>
     </div>
-    <script src="http://localhost:35729/livereload.js"></script>
-    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../bower_components/holderjs/holder.js"></script>
-    <script src="script.js"></script>
-  </body>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 footer">
+        Copyright &copy; 2014. Kuntau Inc.
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="http://localhost:35729/livereload.js"></script>
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../bower_components/holderjs/holder.js"></script>
+<script src="script.js"></script>
+</body>
 </html>
