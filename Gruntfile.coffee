@@ -8,7 +8,7 @@ module.exports = (grunt) ->
     watch:
       css:
         files: '**/*.styl'
-        tasks: ['default']
+        tasks: ['stylus']
         # options:
         #   livereload: 35729
       all:
@@ -28,4 +28,4 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks('grunt-contrib-coffee')
 
   # default task
-  grunt.registerTask('default', ['stylus'])
+  grunt.registerTask('default', ['stylus', 'watch'])
