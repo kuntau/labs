@@ -23,6 +23,7 @@ h1, h2, h3, h4, h4 a
 
 h1, h2, h3
   color flat_vine_green
+  text-transform uppercase
   // text-shadow 2px 2px 0 darken(flat_vine_green, 30%)
 
 h4, h4 a
@@ -31,8 +32,7 @@ h4, h4 a
 body
   font-family 'Open Sans', sans-serif
   font-weight 200
-  background-color darken(white, 5%)
-  // background-color flat_light_mono
+  background-color white
   color flat_dark_grey
 
 // .navbar-nav li a
@@ -63,9 +63,16 @@ body
 
 .blog_posts
   .post
+    .post-img-container .caption
+      position relative
+      top -38px
+      text-align center
+      display block
+      background-color rgba(0, 0, 0, 0.7)
+      color white
+      line-height 30px
     .img-post
       max-width 100%
-      min-width 100%
     .intents
       position relative
       top -120px
