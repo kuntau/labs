@@ -36,8 +36,8 @@ body
   color flat_dark_grey
 
 // .navbar-nav li a
-//   padding-top 10px !important
 //   padding-bottom 10px !important
+//   padding-top 10px !important
 
 .navbar
   min-height 20px !important
@@ -46,7 +46,7 @@ body
     margin 0
     padding 0
 
- .container .main
+.container .main
   margin-top 0
   padding-top 0
 .main
@@ -54,9 +54,12 @@ body
   padding-top 30px
   .second-nav
     padding-top 10px
+    // background-color darken(white,10%)
+    -webkit-border-radius 5px 
+    border-radius 5px 
   .jumbo
-    background-color #eff
-    padding-top 10px
+    // background-color #eff
+    // padding-top 10px
     border-radius 5px
 
 /* live report syling */
@@ -69,11 +72,11 @@ body
     // padding 5px
     // padding-left 20px
     // background-color flat_dark_grey
-    color flat_light_mono
+    color flat_dark_mono
     text-align center
 
 .big-number-container, .incharge-container
-  text-align center
+  // text-align center
   margin auto 0
 
 .big-number-label
@@ -86,6 +89,7 @@ body
   font-weight 800
   color flat_vine_green
   text-align center
+  line-height 36px  
 
 .incharge-label
   font-size 12px
@@ -98,18 +102,43 @@ body
   line-height 14px
   margin-bottom 10px
 
+// not using for the moment. using bootstrap class for unstyle
+ul.route-list
+  list-style-type none
+  padding 0
+
+li.route-list
+  margin 10px
+  padding-top 10px 
+  // padding 0 10px
+li.route-list:nth-child(odd)
+  background-color darken(white, 3%)
+li.route-list:nth-child(even)
+  background-color darken(white, 7%)
+
 .route-container
   text-align center
+  // background-color flat_light_mono
 
 .route-label
   font-size 14px
   color flat_dark_mono
 
 .route-number
-  font-size 24px
+  font-size 22px
   font-weight 600
   color flat_vine_green
-  line-height 14px
+  line-height 22px
+
+.service-container
+  font-size 12px
+  color flat_dark_mono
+  span
+    font-size 10px
+    // text-decoration underline
+    font-weight 600 
+    text-transform uppercase 
+    color flat_vine_green 
 
 /* product card styling */
 
@@ -176,6 +205,14 @@ body
           margin-left 5px
       .product_img
         width 100%
+
+/* misc styling */
+
+.space-12
+  min-height 1px 
+  max-height 1px 
+  margin 6px 0 6px 
+  padding 0 20px 
 
 /* footer */
 
