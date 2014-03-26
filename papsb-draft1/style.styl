@@ -29,20 +29,15 @@ h1, h2, h3, h4, h4 a
 h1, h2, h3
   color flat_vine_green
   text-transform uppercase
-  // text-shadow 2px 2px 0 darken(flat_vine_green, 30%)
 
 h4, h4 a
-  color lighten(black, 30%)
+  color flat_gray
 
 body
   font-family 'Open Sans', sans-serif
   font-weight 200
   background-color white
   color flat_dark_gray
-
-// .navbar-nav li a
-//   padding-bottom 10px !important
-//   padding-top 10px !important
 
 .navbar
   min-height 20px !important
@@ -51,20 +46,15 @@ body
     margin 0
     padding 0
 
-.container .main
+.container
   margin-top 0
   padding-top 0
 .main
-  // padding 0 0 30px 0
-  padding-top 30px
+  margin-top 10px
   .second-nav
-    padding-top 10px
-    // background-color darken(white,10%)
     -webkit-border-radius 5px 
     border-radius 5px 
   .jumbo
-    // background-color #eff
-    // padding-top 10px
     border-radius 5px
 
 /* live report syling */
@@ -74,43 +64,34 @@ body
   box-shadow 0px 2px 2px #eaeaea
   background-color white
   h3
-    // padding 5px
-    // padding-left 20px
-    // background-color flat_dark_gray
     color flat_dark_mono
     text-align center
 
-.big-number-container, .incharge-container
+.big-number-container
+  vertical-align middle
+  .big-number-label
+    font-size 12px
+    color flat_dark_mono
+    text-align center
+  .big-number
+    font-size 36px
+    font-weight 800
+    color flat_vine_green
+    text-align center
+    line-height 36px  
+
+.incharge-container
   // text-align center
   margin auto 0
-
-.big-number-label
-  font-size 12px
-  color flat_dark_mono
-  text-align center
-
-.big-number
-  font-size 36px
-  font-weight 800
-  color flat_vine_green
-  text-align center
-  line-height 36px  
-
-.incharge-label
-  font-size 12px
-  color flat_dark_mono
-
-.incharge-name
-  font-size 22px
-  // font-weight 600
-  color flat_dark_gray
-  line-height 14px
-  margin-bottom 10px
-
-// not using for the moment. using bootstrap class for unstyle
-ul.route-list
-  list-style-type none
-  padding 0
+  .incharge-label
+    font-size 12px
+    color flat_dark_mono
+  .incharge-name
+    font-size 22px
+    // font-weight 600
+    color flat_dark_gray
+    line-height 14px
+    margin-bottom 10px
 
 li.route-list
   margin 10px
@@ -124,26 +105,31 @@ li.route-list:nth-child(even)
 .route-container
   text-align center
   // background-color flat_light_mono
-
-.route-label
-  font-size 14px
-  color flat_dark_mono
-
-.route-number
-  font-size 22px
-  font-weight 600
-  color flat_vine_green
-  line-height 22px
+  .route-label
+    font-size 14px
+    color flat_dark_mono
+  .route-number
+    font-size 22px
+    font-weight 600
+    color flat_vine_green
+    line-height 22px
 
 .service-container
   font-size 12px
+  line-height 12px
   color flat_dark_mono
   span
-    font-size 10px
+    font-size 14px
     // text-decoration underline
     font-weight 600 
     text-transform uppercase 
-    color flat_vine_green 
+    background-color flat_vine_green 
+    color white
+    border 1px solid white
+    padding 0 5px
+    margin-right 10px
+  .service-missing
+    background-color red
 
 /* product card styling */
 
