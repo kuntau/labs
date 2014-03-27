@@ -10,12 +10,17 @@
 flat_dark_green = #16A085
 flat_light_green = #4FD8BF
 flat_vine_green = #39DBAC
-flat_dark_grey = #303847
+flat_dark_gray = #303847
 flat_light_purple = #BC66A1
 flat_light_orange = #FB8261
 flat_light_blue = #428BCA
 flat_dark_mono = lighten(black, 60%)
 flat_light_mono = lighten(black, 90%)
+flat_gray_darker = lighten(black, 13.5%)
+flat_gray_dark = lighten(black, 20%)
+flat_gray = lighten(black, 33.5%)
+flat_gray_light = lighten(black, 60%)
+flat_gray_ligher = lighten(black, 93.5%)
 
 h1, h2, h3, h4, h4 a
   font-family 'Source Sans Pro', sans-serif
@@ -23,21 +28,16 @@ h1, h2, h3, h4, h4 a
 
 h1, h2, h3
   color flat_vine_green
-  // text-shadow 2px 2px 0 darken(flat_vine_green, 30%)
+  text-transform uppercase
 
 h4, h4 a
-  color lighten(black, 30%)
+  color flat_gray
 
 body
   font-family 'Open Sans', sans-serif
   font-weight 200
-  background-color darken(white, 5%)
-  // background-color flat_light_mono
-  color flat_dark_grey
-
-// .navbar-nav li a
-//   padding-top 10px !important
-//   padding-bottom 10px !important
+  background-color white
+  color flat_dark_gray
 
 .navbar
   min-height 20px !important
@@ -46,26 +46,107 @@ body
     margin 0
     padding 0
 
- .container .main
+.container
   margin-top 0
   padding-top 0
 .main
-  padding 0 0 30px 0
-  // color flat_dark_green
-  background-color white
+  margin-top 10px
   .second-nav
-    padding-top 10px
+    -webkit-border-radius 5px 
+    border-radius 5px 
   .jumbo
-    background-color white
-    padding-top 10px
+    border-radius 5px
+
+/* live report syling */
+.live-report
+  border 1px solid #e0e0e0
+  border-radius 5px
+  box-shadow 0px 2px 2px #eaeaea
+  background-color white
+  h3
+    color flat_dark_mono
+    text-align center
+
+.big-number-container
+  vertical-align middle
+  .big-number-label
+    font-size 12px
+    color flat_dark_mono
+    text-align center
+  .big-number
+    font-size 36px
+    font-weight 800
+    color flat_vine_green
+    text-align center
+    line-height 36px  
+
+.incharge-container
+  // text-align center
+  margin auto 0
+  .incharge-label
+    font-size 12px
+    color flat_dark_mono
+  .incharge-name
+    font-size 22px
+    // font-weight 600
+    color flat_dark_gray
+    line-height 14px
+    margin-bottom 10px
+
+li.route-list
+  margin 10px
+  padding-top 10px 
+  // padding 0 10px
+li.route-list:nth-child(odd)
+  background-color darken(white, 3%)
+li.route-list:nth-child(even)
+  background-color darken(white, 7%)
+
+.route-container
+  text-align center
+  // background-color flat_light_mono
+  .route-label
+    font-size 14px
+    color flat_dark_mono
+  .route-number
+    font-size 22px
+    font-weight 600
+    color flat_vine_green
+    line-height 22px
+
+.service-container
+  font-size 12px
+  line-height 12px
+  color flat_dark_mono
+  span
+    font-size 14px
+    // text-decoration underline
+    font-weight 600 
+    text-transform uppercase 
+    background-color flat_vine_green 
+    color white
+    border 1px solid white
+    padding 0 5px
+    margin-right 10px
+  .service-missing
+    background-color red
 
 /* product card styling */
 
 .blog_posts
   .post
+    .post-img-container .caption
+      position relative
+      top -38px
+      text-align center
+      display block
+      padding 5px
+      background-color rgba(0, 0, 0, 0.7)
+      color white
     .img-post
       max-width 100%
-      min-width 100%
+    .post_by, .post_date
+      font-size 12px 
     .intents
       position relative
       top -120px
@@ -77,12 +158,14 @@ body
         color flat_dark_green
       span
         padding-left 5px
+    .post_content
+      margin-top 10px 
 
 .products
   font-family 'Source Sans Pro', sans-serif
   text-align center
   padding 20px 0 70px 0
-  background-color flat_dark_grey
+  background-color flat_dark_gray
   .product
     box-shadow 0 2px 0 flat_light_mono
     .product_img
@@ -95,7 +178,7 @@ body
         border-radius 50%
         top -19px
       .btn-secondary
-        background flat_dark_grey
+        background flat_dark_gray
         color white
       h4
         margin 0
@@ -118,11 +201,19 @@ body
       .product_img
         width 100%
 
+/* misc styling */
+
+.space-12
+  min-height 1px 
+  max-height 1px 
+  margin 6px 0 6px 
+  padding 0 20px 
+
 /* footer */
 
 footer
-  background-color darken(flat_dark_grey, 25%)
+  background-color darken(flat_dark_gray, 25%)
   color flat_light_mono
   .footer
-    height 200px
+    height 50px
     margin-top 50px
