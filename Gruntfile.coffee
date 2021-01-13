@@ -12,7 +12,12 @@ module.exports = (grunt) ->
         # options:
         #   livereload: 35729
       all:
-        files: ['papsb-draft1/*.html', 'papsb-draft1/*.css', 'papsb-draft1/*.js']
+        files: [
+          'papsb-draft1/*.html'
+          'papsb-draft1/*.css'
+          'papsb-draft1/*.js'
+          'ngpapsb-draft1/**'
+        ]
         options:
           livereload: true
 

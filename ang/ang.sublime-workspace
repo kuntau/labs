@@ -1,0 +1,1153 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cont",
+				"controller	AngularJS"
+			],
+			[
+				"join",
+				"joinedText"
+			],
+			[
+				"spli",
+				"splitString"
+			],
+			[
+				"fo",
+				"folder_exclude_patterns"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Volumes/Home/Users/kuntau/Coding/labs/ngpapsb-draft1/views/main.html",
+			"settings":
+			{
+				"buffer_size": 222,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Volumes/Home/Users/kuntau/Coding/labs/ngpapsb-draft1/scripts/controllers/main.js",
+			"settings":
+			{
+				"buffer_size": 160,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Volumes/Home/Users/kuntau/Coding/labs/ngpapsb-draft1/index.html",
+			"settings":
+			{
+				"buffer_size": 2437,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Volumes/Home/Users/kuntau/Coding/labs/ngpapsb-draft1/scripts/app.js",
+			"settings":
+			{
+				"buffer_size": 263,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 3622,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/controllers/main.js",
+			"settings":
+			{
+				"buffer_size": 188,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/app.js",
+			"settings":
+			{
+				"buffer_size": 259,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"pcu",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"wra",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"wrap",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"",
+				"AngularJS: Delete Cache"
+			],
+			[
+				"pcl",
+				"Package Control: List Packages"
+			],
+			[
+				"mat",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"e",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"em",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"emm",
+				"Emmet: Match Pair (outward)"
+			],
+			[
+				"pcr",
+				"Package Control: Remove Package"
+			],
+			[
+				"wr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"col",
+				"Color picker"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"wwt",
+				"Word Wrap: Toggle"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"pc i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 134.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Volumes/Home/Users/kuntau/Coding/labs"
+	],
+	"file_history":
+	[
+		"/Volumes/Home/Users/kuntau/Coding/labs/ngpapsb-draft1/index.html",
+		"/Volumes/Home/Users/kuntau/Coding/labs/papsb-draft1/style.styl",
+		"/Volumes/Home/Users/kuntau/Coding/labs/papsb-draft1/script.coffee",
+		"/Volumes/Home/Users/kuntau/Coding/labs/papsb-draft1/TODO.md",
+		"/Volumes/Home/Users/kuntau/Coding/labs/papsb-draft1/index.html",
+		"/Volumes/Home/Users/kuntau/Coding/labs/Gruntfile.coffee",
+		"/Volumes/Home/Users/kuntau/Coding/labs/ngpapsb-draft1/scripts/app.coffee",
+		"/Volumes/Home/Users/kuntau/Coding/labs/ngpapsb-draft1/scripts/app.js",
+		"/Volumes/Home/Users/kuntau/Coding/labs/randomuser/index.html",
+		"/Volumes/Home/Users/kuntau/Coding/labs/ngpapsb-draft1/scripts/controllers/main.js",
+		"/Volumes/Home/Users/kuntau/Coding/labs/ang/dist/views/main.html",
+		"/Volumes/Home/Users/kuntau/Coding/labs/ang/app/styles/main.css",
+		"/Volumes/Home/Users/kuntau/Coding/labs/ngpapsb-draft1/views/main.html",
+		"/Volumes/Home/Users/kuntau/Library/Application Support/Sublime Text 3/Packages/User/GutterColor.sublime-settings",
+		"/Volumes/Home/Users/kuntau/Coding/labs/caps_first_word.coffee",
+		"/Volumes/Home/Users/kuntau/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Volumes/Home/Users/kuntau/Coding/labs/bower_components/bootstrap/test-infra/s3_cache.py",
+		"/Volumes/Home/Users/kuntau/Coding/labs/randomuser/script.js",
+		"/Volumes/Home/Users/kuntau/Coding/labs/randomuser/style.css",
+		"/Volumes/Home/Users/kuntau/Coding/labs/node_modules/grunt-contrib-watch/node_modules/gaze/test/safewrite_test.js",
+		"/Volumes/Home/Users/kuntau/Coding/labs/caps_first_word.js",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/public/lib/angular-ui-calendar/src/calendar.js",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/public/lib/bootstrap/fonts/glyphicons-halflings-regular.woff",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/public/lib/jquery-ui/themes/hot-sneaks/jquery-ui.min.css",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/public/lib/jquery-ui/themes/hot-sneaks/jquery.ui.theme.css",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/app/controllers/articles.js",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/app/controllers/index.js",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/app/controllers/users.js",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/config/env/test.js",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/config/config.js",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/public/js/filters.js",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/bower.json",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/public/lib/fullcalendar/fullcalendar.css",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/public/lib/fullcalendar/fullcalendar.js",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/public/humans.txt",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/public/lib/angular-ui-utils/.travis.yml",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/public/lib/bootstrap/less/labels.less",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/public/lib/bootstrap/LICENSE",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/public/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/test/mocha/article/model.js",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/node_modules/bower/lib/commands/home.js",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/node_modules/bower/node_modules/mout/object/hasOwn.js",
+		"/Volumes/Home/Users/kuntau/Coding/ui-calendar/node_modules/bower/node_modules/mout/lang/isNull.js",
+		"/Volumes/Home/Users/kuntau/Coding/sewakhas/config/config.js",
+		"/Volumes/Home/Users/kuntau/Coding/sewakhas/bower.json",
+		"/Volumes/Home/Users/kuntau/Coding/sewakhas/gruntfile.js",
+		"/Volumes/Home/Users/kuntau/Coding/sewakhas/.bowerrc",
+		"/Volumes/Home/Users/kuntau/Coding/ekspres/app/views/home/index.jade",
+		"/Volumes/Home/Users/kuntau/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Volumes/Home/Users/kuntau/Coding/ekspres/app/views/style/style.styl",
+		"/Users/kuntau/Coding/ekspres/ekspres.sublime-project",
+		"/Users/kuntau/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/home/kuntau/Coding/ekspres/app.js",
+		"/home/kuntau/Coding/ekspres/app/styles/main.css",
+		"/home/kuntau/Coding/ekspres/app/scripts/app.js",
+		"/home/kuntau/Coding/ekspres/app/scripts/controllers/main.js",
+		"/home/kuntau/Coding/ekspres/app/views/main.html",
+		"/home/kuntau/Coding/ekspres/app/views/driver.html",
+		"/home/kuntau/Coding/ekspres/app/index.html",
+		"/home/kuntau/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/kuntau/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/kuntau/Coding/ekspres/app/scripts/controllers/driver.js",
+		"/home/kuntau/Coding/ekspres/ekspres.sublime-project",
+		"/home/kuntau/Coding/ekspres/app/styles/bootstrap.css",
+		"/home/kuntau/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/kuntau/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Service",
+			"service",
+			"Service",
+			"service",
+			"Service",
+			"L01",
+			"col-sm-2",
+			"route-container",
+			"flat",
+			"div",
+			"h3",
+			" \" + ",
+			"+ ",
+			" + ",
+			"text",
+			", ",
+			"text",
+			"/**",
+			"(\"#",
+			"This is the home",
+			"This is the",
+			"appset",
+			"app",
+			"set",
+			"h1",
+			"h3",
+			"ng-view=\"\"",
+			"li"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Volumes/Home/Users/kuntau/Coding/labs/ngpapsb-draft1/views/main.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								201,
+								201
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close"
+							],
+							"history_list_is_closing": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_gluing_sequence": false,
+								"_vintageous_non_interactive": false,
+								"action": null,
+								"action_count": "",
+								"capture_register": false,
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"repeat_data":
+								[
+									"vi",
+									":",
+									"mode_normal",
+									null
+								],
+								"sequence": "",
+								"xpos": 6
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Volumes/Home/Users/kuntau/Coding/labs/ngpapsb-draft1/scripts/controllers/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								125,
+								125
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close"
+							],
+							"history_list_is_closing": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_gluing_sequence": false,
+								"_vintageous_non_interactive": false,
+								"action": null,
+								"action_count": "",
+								"capture_register": false,
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"repeat_data":
+								[
+									"vi",
+									":",
+									"mode_normal",
+									null
+								],
+								"sequence": "",
+								"xpos": 3
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Volumes/Home/Users/kuntau/Coding/labs/ngpapsb-draft1/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								646,
+								646
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close"
+							],
+							"highlight_line": true,
+							"history_list_is_closing": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_gluing_sequence": false,
+								"_vintageous_input_parsers":
+								[
+								],
+								"_vintageous_non_interactive": false,
+								"action": null,
+								"action_count": "",
+								"capture_register": false,
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"repeat_data":
+								[
+									"vi",
+									":",
+									"mode_normal",
+									null
+								],
+								"sequence": "",
+								"user_input": "",
+								"xpos": 9
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Volumes/Home/Users/kuntau/Coding/labs/ngpapsb-draft1/scripts/app.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								263,
+								263
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"capture_register": false,
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1392,
+								1392
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close"
+							],
+							"highlight_line": true,
+							"history_list_is_closing": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"capture_register": false,
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 42
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/scripts/controllers/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								188,
+								188
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"capture_register": false,
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/scripts/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								221,
+								221
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_gluing_sequence": false,
+								"_vintageous_non_interactive": false,
+								"action": null,
+								"action_count": "",
+								"capture_register": false,
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"partial_sequence": "",
+								"register": "\"",
+								"repeat_data":
+								[
+									"vi",
+									"cs()",
+									"mode_internal_normal",
+									null
+								],
+								"sequence": "",
+								"xpos": 2
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "ang.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"inde",
+				"ngpapsb-draft1/index.html"
+			],
+			[
+				"mai",
+				"ang/app/scripts/controllers/main.js"
+			],
+			[
+				"gru",
+				"Gruntfile.coffee"
+			],
+			[
+				"in",
+				"papsb-draft1/index.html"
+			],
+			[
+				"",
+				"papsb-draft1/style.styl"
+			],
+			[
+				"to",
+				"papsb-draft1/TODO.md"
+			],
+			[
+				"scr",
+				"papsb-draft1/script.coffee"
+			],
+			[
+				"sty.s",
+				"labs/papsb-draft1/style.styl"
+			],
+			[
+				"cap",
+				"labs/caps_first_word.js"
+			],
+			[
+				"i",
+				"public/views/index.html"
+			],
+			[
+				"foo",
+				"app/views/includes/foot.jade"
+			],
+			[
+				"bo",
+				"bower.json"
+			],
+			[
+				"head",
+				"public/views/header.html"
+			],
+			[
+				"layo",
+				"app/views/layouts/default.jade"
+			],
+			[
+				"sty",
+				"app/views/style/style.styl"
+			],
+			[
+				"hea",
+				"app/views/header.jade"
+			],
+			[
+				"lay",
+				"app/views/layout.jade"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+		"_vintageous_last_buffer_search": "rahim",
+		"_vintageous_last_char_search_command": "vi_f",
+		"_vintageous_last_character_search": ">",
+		"_vintageous_last_character_search_forward": "vi_f",
+		"_vintageous_last_macro":
+		[
+		],
+		"_vintageous_recording_macro": false,
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+			"_cmdline_cd": "/Volumes/Home/Users/kuntau/Coding/labs/ang/app/scripts"
+		}
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 190.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

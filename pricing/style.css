@@ -1,0 +1,15 @@
+:root {
+  font: 400 16px Faustina, serif;
+  color: var(--primary);
+  background-color: var(--dark);
+  --primary  : #4a608c;
+  --highlight: #8aa6bf;
+  --accent   : #f2e2c4;
+  --secondary: #f2cea2;
+  --dark     : #253c59;
+  --primary  : rgba(74, 96, 140, 1.000);
+  --highlight: rgba(138, 166, 191, 1.000);
+  --accent   : rgba(242, 226, 196, 1.000);
+  --secondary: rgba(242, 206, 162, 1.000);
+  --dark     : rgba(37, 60, 89, 1.000);
+}

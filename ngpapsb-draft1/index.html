@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta content="text/html" charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PAPSB Portal</title>
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alfa+Slab+One|Open+Sans:400,300,600,700|Source+Sans+Pro:400,600" title="" type="text/css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body ng-app="papsbApp">
+  <header>
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#papsb-main-nav">
+            <span class="sr-only">Toogle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h1><a class="navbar-brand" href="#"><i class="fa fa-cogs"></i> PAPSB PORTAL</a></h1>
+        </div>
+
+        <div class="collapse navbar-collapse" id="papsb-main-nav">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Operasi</a>
+            </li>
+            <li><a href="#">Kejuruteraan</a>
+            </li>
+            <li><a href="#">Kewangan</a>
+            </li>
+            <li><a href="#">Sumber Manusia</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- container-fluid -->
+    </nav>
+  </header>
+  <div class="container" ng-view="">
+  </div> <!-- end container -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 footer">
+          Copyright &copy; 2014. Kuntau Inc.
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="http://localhost:35729/livereload.js"></script>
+  <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="../bower_components/angular/angular.min.js"></script>
+  <script src="../bower_components/sparkline/dist/jquery.sparkline.min.js"></script>
+  <script src="scripts/app.js"></script>
+  <script src="scripts/controllers/main.js"></script>
+</body>
+
+</html>
